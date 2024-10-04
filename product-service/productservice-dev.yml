@@ -19,7 +19,7 @@ spring:
 #        dialect: org.hibernate.dialect.PostgreSQLDialect
     database-platform: org.hibernate.dialect.PostgreSQLDialect
   application:
-    name: ORDER-SERVICE
+    name: PRODUCT-SERVICE
   config:
     import: configserver:http://localhost:8191
 
