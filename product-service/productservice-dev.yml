@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/productdb?gssEncMode=disable
+    url: jdbc:postgresql://localhost:5432/productdb?gssEncMode=disable&sspi=false
     username: postgres
     password: admin
     driver-class-name: org.postgresql.Driver
