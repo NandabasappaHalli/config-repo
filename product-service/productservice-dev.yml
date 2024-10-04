@@ -20,8 +20,8 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 #  application:
 #    name: PRODUCT-SERVICE
-  config:
-    import: configserver:http://localhost:8191
+#  config:
+#    import: configserver:http://localhost:8191
 
   sql:
       init:
