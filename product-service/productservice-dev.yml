@@ -5,6 +5,8 @@ spring:
     url: jdbc:postgresql://172.17.0.2:5432/productdb
     username: postgres
     password: admin
+    hikari:
+      allow-pool-suspension: true
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
