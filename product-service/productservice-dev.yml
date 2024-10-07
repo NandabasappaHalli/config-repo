@@ -6,7 +6,7 @@ spring:
     username: postgres
     password: admin
     hikari:
-      allow-pool-suspension: true
+      allow-pool-suspension: false
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
