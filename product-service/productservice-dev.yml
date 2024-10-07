@@ -13,6 +13,8 @@ spring:
         implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl
     properties:
       hibernate:
+        boot:
+          allow_jdbc_metadata_access: false
       format_sql: true
     show-sql: false
 
