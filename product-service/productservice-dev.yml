@@ -6,7 +6,7 @@ spring:
     username: postgres
     password: admin
   jpa:
-    database-platform: rg.hibernate.dialect.PostgreSQLDialect
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
       ddl-auto: none
       naming:
