@@ -14,7 +14,7 @@ spring:
 #    database-platform: org.hibernate.dialect.PostgreSQLDialect
     database-platform: org.hibernate.dialect.H2Dialect
     hibernate:
-      ddl-auto: none
+      ddl-auto: update
       naming:
         implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl
     properties:
